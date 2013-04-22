@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Cookie_Fortune.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cookie_Fortune"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="Grid">
+    	<Grid.Background>
+    		<ImageBrush ImageSource="Assets/background_water_filter.png"/>
+    	</Grid.Background>
+    	<Grid Margin="10,85,0,67">
+    		<Image x:Name="CookieWhole" Margin="177,41,183,-27" Source="Assets/cookie.png" Stretch="Fill"/>
+    		<Image x:Name="CookieBrokenLeft" Margin="-87,27,315,-27" Source="Assets/cookie_broken1.png" Stretch="Fill" Visibility="Collapsed"/>
+    		<Image x:Name="CookieBrokenRight" Margin="348,27,-69,-27" Source="Assets/cookie_broken2.png" Stretch="Fill" Visibility="Collapsed"/>
+    		<TextBox x:Name="FortuneDisplay" Margin="553,221,524,247" TextWrapping="Wrap" FontSize="26.667" FontFamily="Shojumaru" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed"/>
+
+    	</Grid>
+
+    </Grid>
+</Page>
