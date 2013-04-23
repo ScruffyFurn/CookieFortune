@@ -6,6 +6,7 @@ using System.Linq;
 using System.Xml;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -23,6 +24,8 @@ namespace Cookie_Fortune
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private List<Control> _layoutAwareControls;
+
         Random rnd = new Random((int)(DateTime.Now.Ticks & 0x0000FFFF));
 
         List<string> fortunes = new List<string>();
@@ -30,23 +33,52 @@ namespace Cookie_Fortune
         StringBuilder output = new StringBuilder();
 
         bool isFirstTap = true;
-
-        String xmlString =
-            @"<List>
-
-            <fortune>Fortune goes here!</fortune>
-            <fortune>Fortune goes here2!</fortune>
-            <fortune>Fortune goes here3!</fortune>
-            <fortune>Fortune goes here4!</fortune>
-            <fortune>Fortune goes here5!</fortune>
-            <fortune>Fortune goes here6!</fortune>
-
-            </List>";
         
         public MainPage()
         {
             this.InitializeComponent();
             Grid.Tapped += new TappedEventHandler(Grid_Tapped);
+            Loaded += MainPage_Loaded;
+
+        }
+
+        void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            var control = sender as Control;
+
+            if (control == null) return;
+
+            // Set the initial visual state of the control
+
+            VisualStateManager.GoToState(control, ApplicationView.Value.ToString(), false);
+
+            if (this._layoutAwareControls == null)
+            {
+
+                this._layoutAwareControls = new List<Control>();
+
+            }
+
+            this._layoutAwareControls.Add(control);
+
+            Window.Current.SizeChanged += Current_SizeChanged;
+        }
+
+
+        void Current_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
+        {
+            FortuneDisplay.Visibility = Visibility.Collapsed;
+
+            string visualState = ApplicationView.Value.ToString();
+
+            if (this._layoutAwareControls != null)
+            {
+                foreach (var layoutAwareControl in this._layoutAwareControls)
+                {
+                    VisualStateManager.GoToState(layoutAwareControl, visualState, false);
+                }
+            }
         }
 
         /// <summary>
@@ -80,12 +112,20 @@ namespace Cookie_Fortune
         {
             if (isFirstTap)
             {
-                FortuneDisplay.Text = fortunes[rnd.Next(0, fortunes.Count)];
-                FortuneDisplay.Visibility = Visibility.Visible;
-                CookieWhole.Visibility = Visibility.Collapsed;
-                CookieBrokenLeft.Visibility = Visibility.Visible;
-                CookieBrokenRight.Visibility = Visibility.Visible;
-                isFirstTap = false;
+                if (ApplicationView.Value != ApplicationViewState.Snapped)
+                {
+                    FortuneDisplay.Text = fortunes[rnd.Next(0, fortunes.Count)];
+                    FortuneDisplay.Visibility = Visibility.Visible;
+                    CookieWhole.Visibility = Visibility.Collapsed;
+                    CookieBrokenLeft.Visibility = Visibility.Visible;
+                    CookieBrokenRight.Visibility = Visibility.Visible;
+                    isFirstTap = false;
+                }
+                else
+                {
+                    FortuneDisplay.Visibility = Visibility.Collapsed;
+                }
+
             }
             else
             {

@@ -116,7 +116,6 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\background_water_filter.png" />
     <Content Include="Assets\cookie.png" />
     <Content Include="Assets\cookie_broken1.png" />
     <Content Include="Assets\cookie_broken2.png" />
@@ -125,6 +124,7 @@
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\WhitePlate.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

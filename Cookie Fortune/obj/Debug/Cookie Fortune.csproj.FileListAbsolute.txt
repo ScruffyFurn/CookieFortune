@@ -1,0 +1,23 @@
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\App.g.i.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\App.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\Common\StandardStyles.g.i.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\Common\StandardStyles.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\MainPage.g.i.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\MainPage.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\XamlTypeInfo.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\App.xaml
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\Common\StandardStyles.xaml
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Debug\Cookie Fortune.exe
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Debug\Cookie Fortune.pdb
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Debug\resources.pri
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Debug\AppxManifest.xml
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Debug\Cookie Fortune.build.appxrecipe
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\MainPage.xaml
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\Cookie Fortune.exe
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\Cookie Fortune.pdb
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\priconfig.xml
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\layout.resfiles
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\resources.resfiles
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\pri.resfiles
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\LanguageQualifiers.txt
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Debug\ProjectArchitectures.txt
