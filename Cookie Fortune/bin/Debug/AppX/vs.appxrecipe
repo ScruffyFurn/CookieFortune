@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Debug\Cookie Fortune.exe">
       <PackagePath>Cookie Fortune.exe</PackagePath>
-      <Modified>2013-04-23T04:43:24.238</Modified>
+      <Modified>2013-04-23T06:44:33.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Debug\Cookie Fortune.pdb">
       <PackagePath>Cookie Fortune.pdb</PackagePath>
-      <Modified>2013-04-23T04:43:24.229</Modified>
+      <Modified>2013-04-23T06:44:33.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\cookie.png">
       <PackagePath>Assets\cookie.png</PackagePath>
@@ -43,22 +43,22 @@
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T01:42:52.000</Modified>
+      <Modified>2013-04-23T04:47:02.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T01:42:52.000</Modified>
+      <Modified>2013-04-23T04:46:12.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T01:42:52.000</Modified>
+      <Modified>2013-04-23T04:46:17.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T01:42:52.000</Modified>
+      <Modified>2013-04-23T04:47:12.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\Fortunes.xml">
       <PackagePath>Assets\Fortunes.xml</PackagePath>

@@ -14,14 +14,10 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
+using Windows.ApplicationModel.DataTransfer;
 
 namespace Cookie_Fortune
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
         private List<Control> _layoutAwareControls;
@@ -44,6 +40,7 @@ namespace Cookie_Fortune
 
         void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
+            RegisterForShare();
 
             var control = sender as Control;
 
@@ -63,6 +60,21 @@ namespace Cookie_Fortune
             this._layoutAwareControls.Add(control);
 
             Window.Current.SizeChanged += Current_SizeChanged;
+        }
+
+        private void RegisterForShare()
+        {
+            DataTransferManager dataTransferManager = DataTransferManager.GetForCurrentView();
+            dataTransferManager.DataRequested += new TypedEventHandler<DataTransferManager,
+                DataRequestedEventArgs>(this.ShareTextHandler);
+        }
+
+        private void ShareTextHandler(DataTransferManager sender, DataRequestedEventArgs e)
+        {
+            DataRequest request = e.Request;
+            request.Data.Properties.Title = "Cookie Fortune";
+            request.Data.Properties.Description = "Share your fortune with your friends.";
+            request.Data.SetText(FortuneDisplay.Text);
         }
 
 
@@ -121,12 +133,7 @@ namespace Cookie_Fortune
                     CookieBrokenRight.Visibility = Visibility.Visible;
                     isFirstTap = false;
                 }
-                else
-                {
-                    FortuneDisplay.Visibility = Visibility.Collapsed;
-                }
-
-            }
+            }            
             else
             {
                 FortuneDisplay.Visibility = Visibility.Collapsed;
