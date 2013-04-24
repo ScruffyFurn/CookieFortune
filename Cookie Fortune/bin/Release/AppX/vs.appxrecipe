@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPPY</Machine>
+    <WindowsUser>Michael</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>62F0007FAA08874654A3F08E69F0F0A8BC7F76D094669514D2A08F0B34A819FA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>db237aba-45db-4511-a301-834b6c8ef8a1_1.0.0.0_neutral__yps17xarsp2at</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>db237aba-45db-4511-a301-834b6c8ef8a1_yps17xarsp2at!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>db237aba-45db-4511-a301-834b6c8ef8a1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=test</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-23T18:39:20.216</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\Cookie Fortune.exe">
+      <PackagePath>Cookie Fortune.exe</PackagePath>
+      <Modified>2013-04-23T18:39:20.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\Cookie Fortune.pdb">
+      <PackagePath>Cookie Fortune.pdb</PackagePath>
+      <Modified>2013-04-23T18:39:20.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\cookie.png">
+      <PackagePath>Assets\cookie.png</PackagePath>
+      <Modified>2013-04-19T19:56:37.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\cookie_broken1.png">
+      <PackagePath>Assets\cookie_broken1.png</PackagePath>
+      <Modified>2013-04-19T20:34:22.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\cookie_broken2.png">
+      <PackagePath>Assets\cookie_broken2.png</PackagePath>
+      <Modified>2013-04-19T20:34:27.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-23T04:47:02.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-23T04:46:12.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-23T04:46:17.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-23T04:47:12.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\Fortunes.xml">
+      <PackagePath>Assets\Fortunes.xml</PackagePath>
+      <Modified>2013-04-24T06:01:34.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\Assets\WhitePlate.jpg">
+      <PackagePath>Assets\WhitePlate.jpg</PackagePath>
+      <Modified>2013-04-23T02:59:18.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-04-19T18:22:23.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T21:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-04-23T04:43:23.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-23T18:39:20.179</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

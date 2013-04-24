@@ -1,42 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-
-  <Identity Name="db237aba-45db-4511-a301-834b6c8ef8a1"
-            Publisher="CN=test"
-            Version="1.0.0.0" />
-
+  <Identity Name="db237aba-45db-4511-a301-834b6c8ef8a1" Publisher="CN=test" Version="1.0.0.0" />
   <Properties>
     <DisplayName>Cookie Fortune</DisplayName>
-    <PublisherDisplayName>test</PublisherDisplayName>
+    <PublisherDisplayName>Mickey Mac</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="Cookie_Fortune.App">
-        <VisualElements
-            DisplayName="Cookie Fortune"
-            Logo="Assets\Logo.png"
-            SmallLogo="Assets\SmallLogo.png"
-            Description="Cookie Fortune"
-            ForegroundText="light"
-            BackgroundColor="#464646">
-            <DefaultTile ShowName="allLogos" />
-            <SplashScreen Image="Assets\SplashScreen.png" />
-        </VisualElements>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Cookie_Fortune.App">
+      <VisualElements DisplayName="Cookie Fortune" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Cookie Fortune" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" ShortName="CF" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
     </Application>
   </Applications>
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
 </Package>

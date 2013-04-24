@@ -1,0 +1,23 @@
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\Cookie Fortune.exe
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\Cookie Fortune.pdb
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\resources.pri
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\AppxManifest.xml
+C:\GitHub\CookieFortune\Cookie Fortune\bin\Release\Cookie Fortune.build.appxrecipe
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\App.g.i.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\App.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\Common\StandardStyles.g.i.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\Common\StandardStyles.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\MainPage.g.i.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\MainPage.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\XamlTypeInfo.g.cs
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\App.xaml
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\Common\StandardStyles.xaml
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\MainPage.xaml
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\Cookie Fortune.exe
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\Cookie Fortune.pdb
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\priconfig.xml
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\layout.resfiles
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\resources.resfiles
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\pri.resfiles
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\LanguageQualifiers.txt
+C:\GitHub\CookieFortune\Cookie Fortune\obj\Release\ProjectArchitectures.txt
